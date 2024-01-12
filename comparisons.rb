@@ -53,53 +53,54 @@ p number_students <= 21
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
-# puts 4 < 9
-# #YOU DO: Explain.
+puts 4 < 9
+#YOU DO: Explain.
+# Here the code 4 is less than 9, this will print out true
+books = 3
+puts 4 < books
+# YOU DO: Explain.
+# the number 3 is equal to books so when we do 4 is less than books, this will print false.
+friends = 6
+siblings = 2
+puts friends > siblings
+# YOU DO: Explain. The amount of friends is greater than the amount of sibling, this will print as true
 
-# books = 3
-# puts 4 < books
-# # YOU DO: Explain.
-
-# friends = 6
-# siblings = 2
-# puts friends > siblings
-# # YOU DO: Explain.
-
-# attendees = 9
-# meals = 8
-# puts attendees != meals
-# # YOU DO: Explain.
-
-
-# #-------------------
-# # PART 3: Logical Operators
-# #-------------------
-
-# is_hungry = true
-# finished_homework = false
-
-# # EXAMPLE:
-# # Determine if the user is hungry and has completed their homework
-# puts is_hungry && finished_homework
-# # Determine if the user is hungry or has completed their homework
-# puts is_hungry || finished_homework
-
-# loves_to_play = true
-# loves_dog_park = false
-# loves_treats = true
-# age = 1
-
-# # YOU DO:
-# # Determine if the dog loves to play and loves treats
+attendees = 9
+meals = 8
+puts attendees != meals
+# YOU DO: Explain. The number of attendees is not equal to the number of meal.
 
 
-# # Determine if the dog loves to play and loves the dog park
+#-------------------
+# PART 3: Logical Operators
+#-------------------
+
+is_hungry = true
+finished_homework = false
+
+# EXAMPLE:
+# Determine if the user is hungry and has completed their homework
+puts is_hungry && finished_homework
+# Determine if the user is hungry or has completed their homework
+puts is_hungry || finished_homework
+
+loves_to_play = true
+loves_dog_park = false
+loves_treats = true
+age = 1
+
+# YOU DO:
+# Determine if the dog loves to play and loves treats
+p loves_to_play && loves_treats
 
 
-# # Determine if the dog loves to play or loves the dog park
+# Determine if the dog loves to play and loves the dog park
+p loves_to_play && loves_dog_park
 
+# Determine if the dog loves to play or loves the dog park
+p loves_to_play || loves_dog_park
 
-# # Determine if the dog loves to play and is a puppy
-
-# # What did your final line of code evaluate to? Why do you think that is? Explain.
-# # ANSWER:
+# Determine if the dog loves to play and is a puppy
+p loves_to_play && age
+# What did your final line of code evaluate to? Why do you think that is? Explain.
+# ANSWER: The reason that it evaluated to 1 because age is = to 1 and there is no code for "is a puppy".
